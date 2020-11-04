@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    margin-top: 3rem;
+/* flex */
+    /* min-height: 80vh;
+    display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    background: url('image/asset 2.png')center/cover repeat;
+    /* color: rgb(126, 126, 126); */
+    font-family: 'calibri',sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.container-1, .container-2{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.btn1{
+    display: block;
+    width: 30%;
+    margin:.5rem auto;
+    border-radius:0.5rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn2{
+
+    position: relative;
+    margin:
+    /* float:right; */
+}
+
+
+
+
+.container-2{
+    display: none;
+}
+
+#sliderVal{
+    margin-top: 0;
+    margin-left:10px;
+}
+
+/* slider */
+
+.slider-container{
+    /* display: flex; */
+    width:100%;
+    margin: 10px;
+    padding:10px;
+
+}
+
+.slider-container label{
+    float:left;
+    font-size:1rem;
+    font-weight: bold;
+
+
+
+}
+
+/* //label */
+#slider label {
+    position: absolute;
+    width: 10px;
+    margin-left: -20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    color:#ffffff;
+}
+
+
+
+/* below is not necessary, just for style */
+#slider {
+    width: 100%;
+    margin: .5em auto;
+}
+
+#sliderVal{
+    color:#ffffff;
+    border:0;
+    font-weight: bold;
+    background: transparent;
+    width: 10%;
+
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+   }
+   
+   button{
+    flex:0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 2s ease;
+   }
+   button:hover{
+    background: blue;
+   }
+.container-1,.container-2{
+    margin:1rem 0;
+    padding:2rem;
+    border-radius:0.5rem;
+    text-align: center;
+    border:2px solid #272932;
+    box-shadow:0 5px 10px #272932;
+}
+
+.feedback-action{
+    border:2px solid #272932;
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+section form{
+    display: flex;
+}
+
+section h4{
+    color: #000000;
+}
+
+.screen{
+    background: transparent;
+    border:none;
+    border-bottom:5px solid rgb(233, 233, 233);
+    font-size:1rem;
+    /* padding:10px; */
+    width:60%;
+    color:#ffffff;
+    outline:none;
+    margin:0.5rem
+
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+   }
+   
+   button{
+    flex:0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 2s ease;
+   }
+   button:hover{
+    background: rgb(122, 122, 122);
+   }
+
+
+
+
+
+/* //to be add */
+.alert{
+    color: red;
+    border-color:red;
+    display: block;
+    margin-bottom: 0.5rem
+   }
+   .success{
+    color: green;
+    border-color: green;
+    display: block;
+    margin-bottom: 0.5rem
+   }
