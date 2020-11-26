@@ -16,7 +16,7 @@ body{
     display: flex; */
     /* align-items: center;
     justify-content: center; */
-    background: url('../image/asset 2.png')center/cover repeat;
+    background: url('../image/asset 2.png')center/  cover repeat;
     /* color: rgb(126, 126, 126); */
     font-family: 'calibri',sans-serif;
     font-weight: 400;
